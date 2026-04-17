@@ -28,3 +28,8 @@ if diff < 0:
     print(f"DFT predicts that the FCC site for Cu(111) is more stable than the atop site by {abs(diff):.3f} eV.")
 else:
     print(f"DFT predicts that the atop site for Cu(111) is more stable than the FCC site by {abs(diff):.3f} eV.")
+    
+"""
+results:
+
+"""

@@ -406,3 +406,34 @@ Iteration     Free Energy (Ha/atom)   SCF Error        Timing (sec)
 16           -1.2930541261E+02        2.496E-05        10.294
 17           -1.2930541264E+02        1.646E-05        10.320
 18           -1.2930541290E+02        1.524E-05        10.298
+19           -1.2930541265E+02        6.296E-06        10.331
+Total number of SCF: 19    
+====================================================================
+                    Energy and force calculation                    
+====================================================================
+Free energy per atom               : -1.2930541265E+02 (Ha/atom)
+Total free energy                  : -3.8791623795E+03 (Ha)
+Band structure energy              : -7.1379282092E+02 (Ha)
+Exchange correlation energy        : -6.7433622029E+02 (Ha)
+Self and correction energy         : -4.6040387385E+03 (Ha)
+-Entropy*kb*T                      : -3.7095621485E-02 (Ha)
+Fermi level                        : -2.1085634763E-01 (Ha)
+RMS force                          :  2.4588768831E-04 (Ha/Bohr)
+Maximum force                      :  4.2747034321E-04 (Ha/Bohr)
+Time for force calculation         :  0.458 (sec)
+Relax step time                    :  197.303 (sec)
+***************************************************************************
+                               Timing info                                 
+***************************************************************************
+Total walltime                     :  1740.746 sec
+___________________________________________________________________________
+
+***************************************************************************
+*             Material Physics & Mechanics Group, Georgia Tech            *
+*                       PI: Phanish Suryanarayana                         *
+*               List of contributors: See the documentation               *
+*         Citation: See README.md or the documentation for details        *
+*  Acknowledgements: U.S. DOE SC (DE-SC0019410), U.S. DOE NNSA (ASC)      *
+*      {Preliminary developments: U.S. NSF (1333500,1663244,1553212)}     *
+***************************************************************************
+                                                                           

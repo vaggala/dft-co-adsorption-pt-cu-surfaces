@@ -24,16 +24,19 @@ print(f"E_CO    = {E_co:.6f} eV\n")
 print(f"Atop adsorption energy = {Eads_atop:.6f} eV")
 print(f"FCC adsorption energy  = {Eads_fcc:.6f} eV\n")
 diff = Eads_fcc - Eads_atop
-print(f"DFT predicts that the fcc site for pt111 is more stable than the atop site by {abs(diff):.3f} ev")
+print(f"DFT predicts that the FCC site for Pt(111) is more stable than the atop site by {abs(diff):.3f} eV.")
 print("This is close to the literature value of 0.25 eV.")
 
 """
 results:
-E_clean = -105573.180784 eV
+E_clean = -105557.384960 eV
 E_atop  = -106171.134200 eV
 E_fcc   = -106171.422426 eV
-E_CO    = -612.892359 eV
+E_CO    = -612.893267 eV
 
-Atop adsorption energy = 14.938943 eV
-FCC adsorption energy  = 14.650717 eV
+Atop adsorption energy = -0.855973 eV
+FCC adsorption energy  = -1.144199 eV
+
+DFT predicts that the fcc site for pt111 is more stable than the atop site by 0.288 ev
+This is close to the literature value of 0.25 eV.
 """
