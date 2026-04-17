@@ -1,14 +1,14 @@
 #!/bin/bash
-# SBATCH --job-name=co_adsorption
-# SBATCH --output=logs/%x_%j.out
-# SBATCH --error=logs/%x_%j.err
-# SBATCH --time=04:00:00
-# SBATCH --nodes=1
-# SBATCH --ntasks=1
-# SBATCH --cpus-per-task=8
-# SBATCH --mem=8G
+#SBATCH --job-name=co_adsorption
+#SBATCH --output=outputs/%x_%j.out
+#SBATCH --error=outputs/%x_%j.err
+#SBATCH --time=02:00:00
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=8
+#SBATCH --mem=8G
 
-# comment in/out lines as needed.
+# comment in/out lines BELOW as needed.
 
 echo "Starting job at $(date)"
 
