@@ -11,8 +11,8 @@ E_clean = read_energy("clean/energy.txt")
 E_atop = read_energy("atop/energy.txt")
 E_fcc = read_energy("fcc_hollow/energy.txt")
 
-E_ads_atop = E_atop - E_clean - E_co
-E_ads_fcc = E_fcc - E_clean - E_co
+# E_ads_atop = E_atop - E_clean - E_co
+# E_ads_fcc = E_fcc - E_clean - E_co
 
 Eads_atop = adsorption_energy(E_atop, E_clean, E_co)
 Eads_fcc = adsorption_energy(E_fcc, E_clean, E_co)

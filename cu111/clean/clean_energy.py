@@ -11,5 +11,9 @@ run_calc(
     directory='cu111_clean_sparc',
     kpts=[2,2,1],
     output_file='converged.traj',
-    energy_file='energy.txt'
+    energy_file='energy.txt',
+    d3_flag=0,
+    spin_typ=0,
+    relax_flag=1,
+    tol_scf=1e-5
 )
