@@ -6,12 +6,12 @@ from ase.io import write
 
 slab = fcc111(
     "Pt",
-    size=(3, 3, 4),
-    a=3.92,          
-    vacuum=15.0      
+    size =( 3, 3, 5), # pulled from feibelman experiement/paper
+    a = 3.92,          
+    vacuum = 15.0      
 )
 
-slab.center(axis=2, vacuum = 15.0)
+slab.center(axis = 2, vacuum = 15.0)
 
 write("pt111_clean.xyz", slab)
 
