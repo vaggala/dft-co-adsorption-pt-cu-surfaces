@@ -1,7 +1,7 @@
 from ase.io import read, write
 from ase import Atoms
 
-slab = read("../clean/pt111_clean.xyz")
+slab = read("../clean/pt111_clean.traj")
 
 # top surface height
 z_levels = sorted({round(atom.position[2], 8) for atom in slab})
