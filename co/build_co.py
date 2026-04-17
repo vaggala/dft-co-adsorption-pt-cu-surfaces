@@ -5,9 +5,13 @@ from ase.io import write
 ### E_ads = E_co+slab - E_slab - E_co
 co = molecule("CO")
 
-co.set_cell([15, 15, 15])
+co.set_cell([
+    [8.3155757467538, 0.0, 0.0],
+    [0.0, 4.800999895855028, 0.0],
+    [0.0, 0.0, 39.052852220893335]
+])
 co.center()
-co.pbc = [True, True, True]
+co.pbc = [True, True, False]
 
 write("co.traj", co)
 
