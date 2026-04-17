@@ -42,4 +42,4 @@ slab += co
 
 write("pt111_fcc_hollow.xyz", slab)
 
-print(slab, "Wrote pt111_fcc.xyz")
+print(slab, "Wrote pt111_fcc_hollow.xyz")
